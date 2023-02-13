@@ -100,6 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
       theme: ThemeData.dark(),
       home: Scaffold(
         body: Container(
+          color: Colors.black54,
           padding: EdgeInsets.all(8),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
