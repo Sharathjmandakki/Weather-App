@@ -15,11 +15,11 @@ class location {
       thelatitude = position.latitude;
       thelongitude = position.longitude;
     } catch (e) {
-      if (await Permission.location.request().isGranted) {
-        Map<Permission, PermissionStatus> statuses = await [
-          Permission.location,
-        ].request();
-      }
+      // if (await Permission.location.request().isGranted) {
+      //   Map<Permission, PermissionStatus> statuses = await [
+      //     Permission.location,
+      //   ].request();
+      // }
     }
   }
 

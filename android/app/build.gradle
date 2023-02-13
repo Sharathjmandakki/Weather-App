@@ -27,11 +27,10 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     compileSdkVersion 33
-    ndkVersion flutter.ndkVersion
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility "11"
     }
 
     kotlinOptions {
@@ -60,6 +59,7 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    namespace 'com.example.weathercastapp'
 }
 
 flutter {
