@@ -17,5 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 
 <h1>visit once : https://weather-app-2c5e4.web.app</h1>
 <div>
-  <img src="1.jpg"/>
+  <img src="[1.jpg](https://github.com/Sharathjmandakki/Weather-App/blob/main/1.jpg)https://github.com/Sharathjmandakki/Weather-App/blob/main/1.jpg"/>
 </div>
